@@ -1,6 +1,5 @@
 #include <iostream>
 #include "header.h"
-#include "header.cpp"
 enum menu
 {
     push = 1,
