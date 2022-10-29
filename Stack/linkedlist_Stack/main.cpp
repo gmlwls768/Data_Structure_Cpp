@@ -1,4 +1,5 @@
 #include "header.h"
+
 enum menu
 {
     push = 1,
@@ -8,16 +9,19 @@ enum menu
     top,
     endg,
 };
+
 int main(int argc, char const *argv[])
 {
     LinkedStack Stack;
     int cint;
     string cstring;
+
     while (cint != endg)
     {
         cout << "What you want to do?" << endl;
         cout << "1: push 2:pop 3: size 4: empty 5:top 6:end" << endl;
         cin >> cint;
+
         switch (cint)
         {
         case push:
@@ -57,5 +61,6 @@ int main(int argc, char const *argv[])
             break;
         }
     }
+
     return 0;
 }

@@ -1,5 +1,6 @@
 #include <iostream>
 #include "Slink.h"
+
 using namespace std;
 typedef string Elem;
 class LinkedStack
