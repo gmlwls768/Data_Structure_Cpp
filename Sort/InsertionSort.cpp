@@ -2,7 +2,7 @@
 using namespace std;
 void insertionSort(char *A, int n)
 { // sort an array of n characters
-	for (int i; i < n; i++)
+	for (int i = 1; i < n; i++)
 	{									 // insertion loop
 		char cur = A[i];				 // current charactor to insert
 		int j = i - 1;					 // start at previous character
